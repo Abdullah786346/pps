@@ -58,8 +58,8 @@ const Signup = () => {
       navigate('/login');
 
     } catch (error) {
-      console.error("Signup error:", error.message);
-      alert("Signup failed: " + error.message);
+      console.error("Signup error:");
+  alert("Email already registered: " );
     }
   };
 

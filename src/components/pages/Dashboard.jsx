@@ -68,15 +68,15 @@ const Dashboard = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h2 className="text-2xl font-bold text-gray-800">Welcome to Registeration Form</h2>
+              <h2 className="text-2xl font-bold text-gray-800">Welcome to Registration Form</h2>
               <p className="text-gray-600 mt-2">
-                Please complete our quick Form to complete your Registeration
+                Please complete our registration form to finalize your membership
               </p>
             </div>
             
             <div className="space-y-4">
               <p className="text-gray-700 text-center">
-                This one-time Form takes less than 2 minutes to complete.
+                This one-time form takes less than 2 minutes to complete.
               </p>
               
               <div className="flex flex-col gap-4">
@@ -89,7 +89,7 @@ const Dashboard = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clipRule="evenodd" />
                   </svg>
-                  Open Survey Form
+                  Open Registration Form
                 </a>
                 
                 <button
@@ -111,7 +111,7 @@ const Dashboard = () => {
               </div>
               
               <p className="text-xs text-gray-500 text-center mt-4">
-                Note: You'll need to complete this Form to join PPS.
+                Note: You'll need to complete this form to join PPS.
               </p>
             </div>
           </div>
@@ -131,7 +131,7 @@ const Dashboard = () => {
             </div>
             <h1 className="text-3xl font-bold text-gray-800 mb-3">Welcome!</h1>
             <p className="text-gray-600 mb-6">
-              {showFormPrompt ? 'Complete the survey to continue' : 'Please complete the welcome survey to access all features'}
+              {showFormPrompt ? 'Complete the registration form to continue' : 'Please complete the registration form to access all features'}
             </p>
             
             {!showFormPrompt && (
@@ -139,7 +139,7 @@ const Dashboard = () => {
                 onClick={() => setShowFormPrompt(true)}
                 className="bg-amber-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-amber-700 transition duration-300 mb-8 w-full"
               >
-                Complete Welcome Survey
+                Complete Registration Form
               </button>
             )}
             
@@ -161,7 +161,7 @@ const Dashboard = () => {
               </div>
             </div>
             <h1 className="text-3xl font-bold text-gray-800 mb-3">Welcome Back!</h1>
-            <p className="text-gray-600 mb-6">Thank you for completing our Registeration .We shall come back to you soon</p>
+            <p className="text-gray-600 mb-6">Thank you for completing our registration form. We'll contact you soon.</p>
             
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-amber-50 p-4 rounded-lg">
@@ -179,7 +179,7 @@ const Dashboard = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-500" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                Survey Status
+                Registration Status
               </h3>
               <p className="text-sm text-gray-600">Completed on {new Date().toLocaleDateString()}</p>
             </div>

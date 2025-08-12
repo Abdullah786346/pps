@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
 // Components
 import Navbar from './components/Navbar';
@@ -14,8 +13,9 @@ import Footer from './components/Footer';
 // Pages
 import Login from './components/pages/Login';
 import SignUp from './components/pages/SignUp';
-import Dashboard from './components/pages/Dashboard'; // ✅ Add this
-import PrivateRoute from './components/PrivateRoute'; // ✅ Add this
+import Dashboard from './components/pages/Dashboard';
+import PrivateRoute from './components/PrivateRoute';
+import ForgotPassword from './components/pages/ForgotPassword';
 
 function App() {
   return (
@@ -52,6 +52,7 @@ function App() {
           {/* Public Routes */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
 
           {/* Protected Route */}
           <Route
