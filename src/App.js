@@ -16,7 +16,7 @@ import SignUp from './components/pages/SignUp';
 import Dashboard from './components/pages/Dashboard';
 import PrivateRoute from './components/PrivateRoute';
 import ForgotPassword from './components/pages/ForgotPassword';
-
+import About from './components/pages/About';
 function App() {
   return (
     <Router>
@@ -33,7 +33,7 @@ function App() {
                 <section id="resources">
                   <Mission />
                 </section>
-                <section id="about">
+                <section id="aabout">
                   <HomeTiles />
                 </section>
                 <section id="membership">
@@ -53,7 +53,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
-
+              <Route path="/about" element={<About />} />
           {/* Protected Route */}
           <Route
             path="/dashboard"
@@ -63,6 +63,7 @@ function App() {
               </PrivateRoute>
             }
           />
+      
         </Routes>
       </div>
     </Router>

@@ -12,7 +12,7 @@ import {
 
 const HomeTiles = () => {
   const links = [
-    { title: "About PPS", href: "#about", icon: <FaInfoCircle className="text-3xl mb-2" /> },
+    { title: "About PPS", href: "/about", icon: <FaInfoCircle className="text-3xl mb-2" /> },
     { title: "Committees", href: "#committees", icon: <FaUsers className="text-3xl mb-2" /> },
     { title: "Membership", href: "#membership", icon: <FaUserFriends className="text-3xl mb-2" /> },
     { title: "News & Events", href: "#news", icon: <FaNewspaper className="text-3xl mb-2" /> },

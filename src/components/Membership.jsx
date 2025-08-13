@@ -49,10 +49,14 @@ const Membership = () => {
                   <span className="text-[#545454]">Quarterly industry reports and market analysis</span>
                 </li>
               </ul>
-              <button  onClick={() => navigate('/login')}
-               className="mt-8 bg-[#de0f3f] hover:bg-[#c10e38] text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-md">
-                Apply Now
-              </button>
+              <button
+  onClick={() => {
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfb7ogqT7BzBaB8Q6MXXGWSx6WLKG9Lmp0wSQz1AgnyN5bpZQ/viewform";
+  }}
+  className="mt-8 bg-[#de0f3f] hover:bg-[#c10e38] text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-md"
+>
+  Apply Now
+</button>
             </div>
             
             <div className="bg-[#5a631c] bg-opacity-10 rounded-xl p-6 h-full flex items-center justify-center">

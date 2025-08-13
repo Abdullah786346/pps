@@ -94,15 +94,15 @@ const Navbar = () => {
             </div>
 
             <div className="mt-4 md:mt-0 md:ml-8 flex">
-              <button
-                onClick={() => {
-                  closeMobileMenu();
-                  navigate('/login');
-                }}
-                className="bg-crimson hover:bg-darkgrey text-purewhite font-bold py-2 px-6 rounded-lg w-full md:w-auto"
-              >
-                Member Login
-              </button>
+            <button
+  onClick={() => {
+    closeMobileMenu();
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfb7ogqT7BzBaB8Q6MXXGWSx6WLKG9Lmp0wSQz1AgnyN5bpZQ/viewform";
+  }}
+  className="bg-crimson hover:bg-darkgrey text-purewhite font-bold py-2 px-6 rounded-lg w-full md:w-auto"
+>
+  Member Login
+</button>
             </div>
           </div>
         </div>
