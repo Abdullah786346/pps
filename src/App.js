@@ -17,6 +17,10 @@ import Dashboard from './components/pages/Dashboard';
 import PrivateRoute from './components/PrivateRoute';
 import ForgotPassword from './components/pages/ForgotPassword';
 import About from './components/pages/About';
+import Commetties from './components/pages/Commetties';
+import Eventup from './components/Eventup';
+import Publicationspoul from './components/pages/Publicationspoul';
+
 function App() {
   return (
     <Router>
@@ -54,6 +58,9 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
               <Route path="/about" element={<About />} />
+          <Route path="/commetties" element={<Commetties />} />
+          <Route path="/Eventup" element={<Eventup />} />
+          <Route path="/Publicationspoul" element={<Publicationspoul />} />
           {/* Protected Route */}
           <Route
             path="/dashboard"

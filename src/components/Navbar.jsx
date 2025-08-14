@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate = useNavigate();
+  
 
   // Function to close mobile menu
   const closeMobileMenu = () => {
@@ -97,7 +97,7 @@ const Navbar = () => {
             <button
   onClick={() => {
     closeMobileMenu();
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfb7ogqT7BzBaB8Q6MXXGWSx6WLKG9Lmp0wSQz1AgnyN5bpZQ/viewform";
+    window.location.href = "https://forms.gle/yiwfSe5x5RGpR1u3A";
   }}
   className="bg-crimson hover:bg-darkgrey text-purewhite font-bold py-2 px-6 rounded-lg w-full md:w-auto"
 >

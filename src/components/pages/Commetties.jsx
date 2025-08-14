@@ -10,7 +10,7 @@ export default function Commetties() {
         sm:bg-cover              /* from small screens upward: cover */
         bg-top sm:bg-center      /* mobile: focus top, desktop: center */
       "
-      style={{ backgroundImage: "url('/assets/abouts.jpg')" }}
+      style={{ backgroundImage: "url('/assets/comettiespic.jpg')" }}
     />
   );
 }

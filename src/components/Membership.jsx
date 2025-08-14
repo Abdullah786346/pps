@@ -1,7 +1,6 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 const Membership = () => {
-   const navigate = useNavigate(); 
+   
   return (
     <div className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
@@ -51,7 +50,7 @@ const Membership = () => {
               </ul>
               <button
   onClick={() => {
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfb7ogqT7BzBaB8Q6MXXGWSx6WLKG9Lmp0wSQz1AgnyN5bpZQ/viewform";
+    window.location.href = "https://forms.gle/yiwfSe5x5RGpR1u3A";
   }}
   className="mt-8 bg-[#de0f3f] hover:bg-[#c10e38] text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-md"
 >

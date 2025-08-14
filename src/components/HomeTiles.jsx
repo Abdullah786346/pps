@@ -13,12 +13,12 @@ import {
 const HomeTiles = () => {
   const links = [
     { title: "About PPS", href: "/about", icon: <FaInfoCircle className="text-3xl mb-2" /> },
-    { title: "Committees", href: "#committees", icon: <FaUsers className="text-3xl mb-2" /> },
+    { title: "Committees", href: "/commetties", icon: <FaUsers className="text-3xl mb-2" /> },
     { title: "Membership", href: "#membership", icon: <FaUserFriends className="text-3xl mb-2" /> },
-    { title: "News & Events", href: "#news", icon: <FaNewspaper className="text-3xl mb-2" /> },
-    { title: "Calendar", href: "#calendar", icon: <FaCalendarAlt className="text-3xl mb-2" /> },
-    { title: "Opportunities", href: "#opportunities", icon: <FaBriefcase className="text-3xl mb-2" /> },
-    { title: "Publications", href: "#publications", icon: <FaBook className="text-3xl mb-2" /> },
+    { title: "News & Events", href: "/Eventup", icon: <FaNewspaper className="text-3xl mb-2" /> },
+    { title: "Calendar", href: "calendar", icon: <FaCalendarAlt className="text-3xl mb-2" /> },
+    { title: "Opportunities", href: "/opportunities", icon: <FaBriefcase className="text-3xl mb-2" /> },
+    { title: "Publications", href: "/Publicationspoul", icon: <FaBook className="text-3xl mb-2" /> },
     { title: "Sponsors/Partners", href: "#sponsors", icon: <FaHandshake className="text-3xl mb-2" /> },
   ];
 
