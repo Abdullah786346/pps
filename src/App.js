@@ -20,6 +20,8 @@ import About from './components/pages/About';
 import Commetties from './components/pages/Commetties';
 import Eventup from './components/Eventup';
 import Publicationspoul from './components/pages/Publicationspoul';
+import BoardOfDirectors from './components/pages/BoardOfDirectors';
+import  ExecutiveBoard from './components/pages/ExecutiveBoard'; // Fixed import
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          {/* Public Home Page */}
+        
           <Route
             path="/"
             element={
@@ -57,10 +59,13 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
-              <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/commetties" element={<Commetties />} />
           <Route path="/Eventup" element={<Eventup />} />
           <Route path="/Publicationspoul" element={<Publicationspoul />} />
+          <Route path="/board-of-director" element={<BoardOfDirectors />} />
+          <Route path="/executive-board" element={<ExecutiveBoard />} />
+
           {/* Protected Route */}
           <Route
             path="/dashboard"
@@ -70,7 +75,6 @@ function App() {
               </PrivateRoute>
             }
           />
-      
         </Routes>
       </div>
     </Router>

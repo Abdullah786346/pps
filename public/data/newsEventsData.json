@@ -2,47 +2,51 @@
   "news": [
     {
       "id": 1,
-      "title": "Breakthrough in Poultry Nutrition",
-      "excerpt": "New research shows improved feed formulations can boost growth rates by 15%...",
-      "content": "Full article content goes here...",
-      "category": "Research",
-      "date": "2025-07-15"
-    },
-    {
-      "id": 2,
-      "title": "Annual Poultry Conference Announced",
-      "excerpt": "Join industry leaders this September for the largest poultry event of the year...",
-      "content": "Full article content goes here...",
-      "category": "Research",
-      "date": "2025-07-15"
-    },
-    {
-      "id": 3,
-      "title": "Annual Poultry Conference Announced",
-      "excerpt": "Join industry leaders this September for the largest poultry event of the year...",
-      "content": "Full article content goes here...",
-      "category": "Event",
-      "date": "2025-07-20"
+      "title": "Society Quarterly Newsletter",
+      "excerpt": "Publication of research summaries, policy updates, and opportunities for members to submit scholarly contributions.",
+      "content": "Members: Free Subscription & Publication Priority | Non-Members: Subscription Available on Request",
+      "category": "Publication",
+      "date": "2025-08-15"
     }
-
   ],
   "events": [
     {
       "id": 1,
-      "title": "Poultry Health Workshop",
-      "date": "2025-08-10",
-      "time": "9:00 AM - 4:00 PM",
-      "location": "Arid University Auditorium",
-      "description": "Learn about latest health management techniques"
+      "title": "Society Webinar Series 2025",
+      "date": "2025-09-01",
+      "endDate": "2025-10-31",
+      "time": "Various Times",
+      "location": "Virtual",
+      "description": "An exclusive series of expert-led virtual sessions addressing emerging trends, research, and innovations in poultry science.",
+      "access": {
+        "members": "Free Access",
+        "nonMembers": "Paid Registration"
+      }
     },
     {
       "id": 2,
-      "title": "Feed Formulation Seminar",
-      "date": "2025-08-22",
-      "time": "1:00 PM - 3:30 PM",
-      "location": "Virtual",
-      "description": "Advanced techniques for optimal feed efficiency"
+      "title": "PPS Poultry Science Summer Academy – Short Course",
+      "date": "2025-07-15",
+      "endDate": "2025-07-30",
+      "time": "9:00 AM - 4:00 PM Daily",
+      "location": "National Poultry Research Center",
+      "description": "A condensed, skills-based two-track (Basic & Advanced) program designed to equip students and professionals with practical competencies in poultry health, genetics, nutrition, and management.",
+      "access": {
+        "members": "Priority Enrollment & Fee Discount",
+        "nonMembers": "Open Registration (Limited Seats)"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Hybrid Seminar – Career Counselling & Opportunities",
+      "date": "2025-08-15",
+      "time": "2:00 PM - 5:00 PM",
+      "location": "Hybrid (On-site & Online)",
+      "description": "Guidance from industry leaders and academics on career pathways, scholarships, and research collaborations in poultry sciences.",
+      "access": {
+        "members": "Free Entry (On-site & Online)",
+        "nonMembers": "Paid Access"
+      }
     }
-
   ]
 }
