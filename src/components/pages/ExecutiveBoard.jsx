@@ -51,7 +51,7 @@ export default function ExecutiveBoard() {
               className="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col"
             >
               {/* Image container */}
-              <div className="w-full h-[350px] overflow-hidden">
+              <div className="w-full h-[35c0px] overflow-hidden">
                 <img
                   src={member.image}
                   alt={member.name}
